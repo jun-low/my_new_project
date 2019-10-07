@@ -7,3 +7,6 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw, :x64_mingw]
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
+
+# for deploying to github pages
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
