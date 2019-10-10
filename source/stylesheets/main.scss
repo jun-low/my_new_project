@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .animated-intro p span.typed-text {
   font-weight: normal;
-  color: #fff;
+  color: #fbc547;
 }
 .animated-intro p span.cursor {
   display: inline-block;
@@ -72,148 +72,187 @@ p {
 /* Layout */
 .grid-1 .item {
 width: 100%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-2 .item {
 width: 50%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-3 .item {
 width: 33.33333%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-4 .item {
 width: 25%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-5 .item {
 width: 20%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-6 .item {
 width: 16.66667%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-7 .item {
 width: 14.28571%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-8 .item {
 width: 12.5%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-9 .item {
 width: 11.11111%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-10 .item {
 width: 10%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-11 .item {
 width: 9.09091%;
+padding-left: 30px;
 padding-right: 8px; }
 
 .grid-12 .item {
 width: 8.33333%;
+padding-left: 30px;
 padding-right: 8px; }
 
 @media (min-width: 768px) {
 .grid-md-1 .item {
   width: 100%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-2 .item {
   width: 50%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-3 .item {
   width: 33.33333%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-4 .item {
   width: 25%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-5 .item {
   width: 20%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-6 .item {
   width: 16.66667%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-7 .item {
   width: 14.28571%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-8 .item {
   width: 12.5%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-9 .item {
   width: 11.11111%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-10 .item {
   width: 10%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-11 .item {
   width: 9.09091%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-md-12 .item {
   width: 8.33333%;
+  padding-left: 30px;
   padding-right: 8px; } }
 
 @media (min-width: 960px) {
 .grid-lg-1 .item {
   width: 100%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-2 .item {
   width: 50%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-3 .item {
   width: 33.33333%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-4 .item {
   width: 25%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-5 .item {
   width: 20%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-6 .item {
   width: 16.66667%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-7 .item {
   width: 14.28571%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-8 .item {
   width: 12.5%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-9 .item {
   width: 11.11111%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-10 .item {
   width: 10%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-11 .item {
   width: 9.09091%;
+  padding-left: 30px;
   padding-right: 8px; }
 .grid-lg-12 .item {
   width: 8.33333%;
+  padding-left: 30px;
   padding-right: 8px; } }
 
 
-/* projects / list */
+/* projects list */
 .illustr img {
-width: 200px;
-display: block;
-object-fit: cover;  }
+  width: 200px;
+  display: block;
+  object-fit: cover;  
+}
 
 .img-service {
-font-size: 32px;
+  font-size: 32px;
+  color: #fbc547;
 }
 
 .media-body {
-margin-left: 12px;
+  margin-left: 12px;
 }
 
 /* Responsiveness */
 
 .fullscreen {
-width: 100%;
-min-height: 100vh; }
+  width: 100%;
+  min-height: 100vh; 
+}
 
 @media (min-width: 576px) {
 .fullscreen-md {
@@ -262,6 +301,10 @@ visibility: hidden; }
 @media (min-width: 1200px) {
   .display-1 {
     font-size: 3.5rem; } }
+
+.display-yellow {
+  color: #fbc547;
+}
 
 .display-title {
   margin-bottom: 1rem; }
