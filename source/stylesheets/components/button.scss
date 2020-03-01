@@ -374,17 +374,29 @@
     width: 48px; }
 
 .icon-btn {
-padding: 0px 8px;
-display: inline-block;
-transition: 0.3s;
-color: #ffffff; }
+    padding: 0px 8px;
+    display: inline-block;
+    transition: 0.3s;
+    color: #ffffff; 
+}
 
 .icon-btn .icon {
-    font-size: 32px; }
+    font-size: 32px; 
+}
     
 .icon-btn:hover {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, 0.5); 
+}
 
 .icons-margin {
-margin-left: 0px;
-margin-right: 0px; }
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+.dev-badge {
+    margin-top: -14px; // to align with rest footer icon
+    filter: invert(100%);
+    &:hover {
+        opacity: 0.5; 
+    }
+}
