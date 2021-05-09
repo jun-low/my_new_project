@@ -5,6 +5,8 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
  
 set :images_dir, 'images'
+
+activate :gzip
  
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
@@ -45,10 +47,9 @@ page '/*.txt', layout: false
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :minify_css
+end
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   # Optional Settings
