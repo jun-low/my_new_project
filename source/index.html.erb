@@ -3,14 +3,9 @@
     <div><i class='fa fa-spinner  fa-spin'></i><p>loading</p></div>
 </div> %>
 
-  <!-- BEGIN OF site header Menu -->
+  <!-- BEGIN OF site header menu -->
   <%= partial "layouts/navbar" %>
-  <!-- END OF site header Menu-->
-
-  <!-- BEGIN OF page cover -->
-  <div id="parallax">
-  </div>
-  <!--END OF page cover -->
+  <!-- END OF site header menu-->
 
   <!-- BEGIN OF page main content -->
   <main class="page-main page-fullpage" id="mainpage">
@@ -21,9 +16,9 @@
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin v-center">
         <!-- content -->
-        <div class="section-content">
-          <div class="row">
-            <div class="col-12 col-lg-6 text-left">
+        <div class="section-content container">
+          <div class="row  justify-content-around">
+            <div class="col col-12 col-md-6 col-lg-6 text-left">
               <!-- title and description -->
               <div class="title-desc">
                 <h2 class="display-1 display-title home-title decor">Jun Low</h2>
@@ -32,7 +27,6 @@
                 </div>
                 <p>I'm Jun, a web developer, teacher, and a pianist who loves to create things and help others to achieve their goals with web development.</p>
               </div>
-
               <!-- Action button -->
               <div class="btns-action">
                 <a class="btn btn-circicon" href="#about">
@@ -41,7 +35,12 @@
                 </a>
               </div>
             </div>
-          </div>
+            <div class="section section-centered col col-12 col-md-6 col-lg-6">
+              <div class="profile-image-container">
+                <img src="/images/bg-pallax.jpg" alt="profile pic">
+              </div>
+            </div>  
+          </div>  
         </div>
 
         <div class="section-aside aside-bottom">
@@ -57,20 +56,17 @@
       <!-- End of section wrapper -->
     </div>
     <!-- End of intro section -->
-    <br>
-    <br>
-    <br>
     <!-- Begin of about section -->
-    <div class="pt-5 section section-description fp-auto-height-responsive" data-section="about">
+    <div class="section section-description fp-auto-height-responsive" data-section="about">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
         <!-- content -->
         <div class="section-content">
           <div class="row">
-            <div class="col-12 col-md-8 text-left">
+            <div class="col-12 col-md-12 col-lg-8 text-left">
               <!-- about me section -->
               <a name="about"></a>
-              <div class="title-desc pt-5">
+              <div class="title-desc">
                 <h1 class="display-1 display-title">About</h1>
                 <h4 class="display-yellow">Why tech?</h4>
                 <p>
@@ -79,7 +75,6 @@
                 <p>
                   Reading code for me is like reading sheet music — the printed notes require interpretation and execution. Every day I code it takes me a little closer to building anything I can dream of; and that sense of satisfaction I get after finishing a project is something I haven’t felt in years.
                 </p>
-                <br>
                 <h4 class="display-yellow">Front-end focused with full stack experience</h4>
                 <p>
                   I'm currently a developer at <a class="underline-link" href="https://upstream-media.ch/" target="_blank">Upstream Media</a> building things for the software with some awesome people. I enjoy bridging the gap between my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build scalable applications while providing engaging, pixel-perfect user experiences.
@@ -103,7 +98,6 @@
       </div>
     </div>
     <!-- End of about section -->
-  <br>
     <!-- Begin of projects section -->
     <div class="section section-twoside fp-auto-height-responsive fullwidth with-margin" data-section="projects-featured">
       <div class="slide pb-5">
