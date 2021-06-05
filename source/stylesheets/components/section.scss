@@ -9,7 +9,10 @@
   flex-direction: column; }
   @media (max-width: 576px) {
     .section {
-      display: block; } }
+      display: block; }
+    .section  .profile-image-container {
+      display: none;
+    }  }
   @media (max-width: 768px) {
     .section {
       overflow: hidden; } }
@@ -47,9 +50,7 @@
   @media (max-width: 768px) {
     .section:nth-child(2n) {
       background: rgba(255, 255, 255, 0.05); }
-    .section  .profile-image-container {
-      display: none;
-    } }
+    }
     .section.section-centered {
       display: flex;
       align-items: center;
@@ -66,7 +67,7 @@
       .section p, .section ul {
         line-height: 1.75; } }
   .section p {
-    color: #ffffff; }
+    color: inherit; }
   .section .padding-top {
     padding-top: 32px; }
     @media (min-width: 768px) {
@@ -146,7 +147,7 @@
         padding-left: 64px;
         padding-right: 64px;
         padding-top: 14px;
-        padding-bottom: 14px;
+        padding-bottom: 84px;
       } }
 
     @media (min-width: 960px) {
@@ -226,7 +227,7 @@
 
 /* Home section layout */
 .section-home {
-  min-height: 90vh; }
+  min-height: 100vh; }
 .section-home .section-wrapper {
   width: 100%;
   text-align: center; }
@@ -260,7 +261,7 @@
         width: 320px;
         width: 100%;
         height: 1px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        border-bottom: 1px solid rgba(#35375e, 0.2); }
       .section-home .section-content .bordered {
         border-bottom: 2px solid currentColor; }
       .section-home .section-content .title-desc {
@@ -320,7 +321,7 @@
   flex-wrap: wrap;
   margin-top: 1rem; }
 .service-list.decor {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(#35375e, 0.2);
   padding-top: 2rem; }
 .service-list .item {
   margin-bottom: 2rem;
@@ -375,9 +376,9 @@
         padding: 0; } }
     @media (min-width: 1200px) and (orientation: landscape) {
       .slide-wrapper .legend {
-        width: 280px; } }
+        width: 100%; } }
       .slide-wrapper .legend a {
-        color: #ffffff; }
+        color: inherit; }
       .slide-wrapper .legend a:hover {
         text-decoration: none; }
       .slide-wrapper .legend h3 {
